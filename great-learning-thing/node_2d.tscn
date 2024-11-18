@@ -1,12 +1,16 @@
-[gd_scene format=3 uid="uid://srb8cssi5q4q"]
+[gd_scene load_steps=2 format=3 uid="uid://srb8cssi5q4q"]
+
+[ext_resource type="Script" path="res://text_edit.gd" id="1_v1mxk"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="TextEdit" type="TextEdit" parent="."]
-offset_left = 271.0
-offset_right = 853.0
-offset_bottom = 53.0
-text = "Learn How to Code!"
+[node name="codeInput" type="TextEdit" parent="."]
+offset_left = 62.0
+offset_top = 110.0
+offset_right = 526.0
+offset_bottom = 459.0
+placeholder_text = "// put your code in here"
+script = ExtResource("1_v1mxk")
 
 [node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
 offset_left = 1074.0
@@ -16,3 +20,16 @@ offset_bottom = 378.0
 
 [node name="Button" type="Button" parent="AspectRatioContainer"]
 layout_mode = 2
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 363.0
+offset_top = 16.0
+offset_right = 615.0
+offset_bottom = 90.0
+
+[node name="Label" type="Label" parent="Panel"]
+offset_left = 8.0
+offset_top = 22.0
+offset_right = 269.0
+offset_bottom = 58.0
+text = "Learn to code!!!"
