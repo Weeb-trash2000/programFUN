@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://srb8cssi5q4q"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 271.0
+offset_right = 853.0
+offset_bottom = 53.0
+text = "Learn How to Code!"
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+offset_left = 1074.0
+offset_top = 338.0
+offset_right = 1114.0
+offset_bottom = 378.0
+
+[node name="Button" type="Button" parent="AspectRatioContainer"]
+layout_mode = 2
