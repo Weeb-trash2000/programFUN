@@ -3,10 +3,10 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CheckBox" type="CheckBox" parent="."]
-margin_left = 178.0
-margin_top = 102.0
-margin_right = 254.0
-margin_bottom = 163.0
+margin_left = 48.0
+margin_top = 34.0
+margin_right = 124.0
+margin_bottom = 95.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
