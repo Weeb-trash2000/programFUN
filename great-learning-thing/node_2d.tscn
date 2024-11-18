@@ -17,6 +17,7 @@ offset_bottom = 378.0
 
 [node name="Button" type="Button" parent="AspectRatioContainer"]
 layout_mode = 2
+text = " run"
 
 [node name="Panel" type="Panel" parent="."]
 offset_left = 363.0
